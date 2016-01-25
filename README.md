@@ -1,0 +1,2 @@
+# npmrun
+npm run alias
