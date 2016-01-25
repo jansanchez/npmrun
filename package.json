@@ -2,7 +2,7 @@
   "name": "npmrun",
   "version": "1.0.0",
   "description": "npm run alias",
-  "main": "index.js",
+  "main": "npmrun.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jansanchez/npmrun.git"
@@ -28,6 +28,9 @@
     "url": "https://github.com/jansanchez/npmrun/issues"
   },
   "homepage": "https://github.com/jansanchez/npmrun#readme",
+  "bin": {
+    "nr": "./npmrun.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   }
