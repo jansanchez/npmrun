@@ -1,0 +1,34 @@
+{
+  "name": "npmrun",
+  "version": "1.0.0",
+  "description": "npm run alias",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jansanchez/npmrun.git"
+  },
+  "keywords": [
+    "npm",
+    "run",
+    "npm",
+    "run",
+    "alias",
+    "task",
+    "gulp",
+    "grunt",
+    "runner"
+  ],
+  "author": {
+    "name": "jansanchez",
+    "email": "joejansanchez@gmail.com",
+    "url": "http://frontendlabs.io/author/jansanchez"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jansanchez/npmrun/issues"
+  },
+  "homepage": "https://github.com/jansanchez/npmrun#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
