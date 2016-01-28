@@ -8,8 +8,9 @@ program
     .action(function (task, otherTasks) {
         console.log('nr %s', task); 
         if (otherTasks){
-            otherTasks.forEach(function (oTasks){
-            })
+            otherTasks.forEach(function (oTask){
+                console.log('nr %s', oTask);
+            });
         }
     });
 
