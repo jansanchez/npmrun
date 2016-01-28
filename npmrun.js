@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 
 var program = require('commander');
 var exec = require('child_process').exec;
