@@ -20,28 +20,37 @@
         "has-ansi": {
           "version": "2.0.0",
           "from": "has-ansi@>=2.0.0 <3.0.0",
-          "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz"
+          "resolved": "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz",
+          "dependencies": {
+            "ansi-regex": {
+              "version": "2.0.0",
+              "from": "ansi-regex@>=2.0.0 <3.0.0",
+              "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz"
+            }
+          }
         },
         "strip-ansi": {
           "version": "3.0.0",
           "from": "strip-ansi@>=3.0.0 <4.0.0",
-          "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.0.tgz"
+          "resolved": "https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.0.tgz",
+          "dependencies": {
+            "ansi-regex": {
+              "version": "2.0.0",
+              "from": "ansi-regex@>=2.0.0 <3.0.0",
+              "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz"
+            }
+          }
         },
         "supports-color": {
           "version": "2.0.0",
           "from": "supports-color@>=2.0.0 <3.0.0",
           "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz"
-        },
-        "ansi-regex": {
-          "version": "2.0.0",
-          "from": "ansi-regex@2.0.0",
-          "resolved": "https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz"
         }
       }
     },
     "commander": {
       "version": "2.9.0",
-      "from": "commander@latest",
+      "from": "commander@>=2.9.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/commander/-/commander-2.9.0.tgz",
       "dependencies": {
         "graceful-readlink": {
