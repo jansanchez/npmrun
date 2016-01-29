@@ -2,23 +2,27 @@
 
 > nr, An alias for npm run
 
+## What's nr 
+
+`nr` is an  `npm run` alias to run npm scripts in a faster way and help you stay productive.
+
 ## Getting Started
 
-### Install:
+### Install
 
 ```
 npm install -g npmrun
 ```
 
-### How to use:
+### Usage 
 
-```
+```sh
 nr script_name
 ```
 
-### Examples:
+### Examples
 
-```
+```sh
 nr test
 ```
 
