@@ -1,6 +1,6 @@
 # Npm Run! [![NPM version][npm-image]][npm-url]
 
-> nr alias for npm run
+> nr, An alias for npm run
 
 ## Getting Started
 
@@ -13,8 +13,10 @@ npm install -g npmrun
 ### How to use:
 
 ```
-nr task_name
+nr script_name
 ```
+
+### Examples:
 
 ```
 nr start
