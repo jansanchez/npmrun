@@ -7,6 +7,7 @@ var color = require('chalk');
 var execute = function (task){
 	exec("npm run " + task, function (error, stdout, stderr) {
 		console.log(color.magenta(stdout));
+		console.log(color.gray(stderr));
 	});
 }
 
