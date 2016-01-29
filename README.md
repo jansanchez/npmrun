@@ -19,16 +19,17 @@ nr script_name
 ### Examples:
 
 ```
-nr start
-```
-
-![nr start](docs/images/nr_start.png)
-
-```
 nr test
 ```
 
-![nr test](docs/images/nr_test.png)
+![nr test](docs/images/nr_test.gif)
+
+
+```
+nr start
+```
+
+![nr start](docs/images/nr_start.gif)
 
 
 [downloads-image]: http://img.shields.io/npm/dm/npmrun.svg
