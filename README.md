@@ -1,4 +1,4 @@
-# Npm Run! [![NPM version][npm-image]][npm-url]
+# Npm Run! [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 > nr, An alias for npm run
 
@@ -39,4 +39,10 @@ nr start
 [downloads-image]: http://img.shields.io/npm/dm/npmrun.svg
 [npm-url]: https://www.npmjs.org/package/npmrun
 [npm-image]: http://img.shields.io/npm/v/npmrun.svg
+
+[travis-url]: https://travis-ci.org/jansanchez/npmrun
+[travis-image]: http://img.shields.io/travis/jansanchez/npmrun.svg
+
+[coveralls-url]: https://coveralls.io/r/jansanchez/npmrun
+[coveralls-image]: https://img.shields.io/coveralls/jansanchez/npmrun.svg
 
