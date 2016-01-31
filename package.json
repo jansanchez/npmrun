@@ -1,6 +1,6 @@
 {
   "name": "npmrun",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "npm run alias",
   "engines": {
     "node": ">=4"
@@ -40,11 +40,11 @@
   },
   "dependencies": {
     "chalk": "^1.1.1",
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "execa": "^0.2.2"
   },
   "devDependencies": {
     "ava": "^0.11.0",
-    "execa": "^0.2.2",
     "xo": "^0.12.1"
   },
   "xo": {
