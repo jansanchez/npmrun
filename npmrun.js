@@ -3,12 +3,13 @@
 'use strict';
 
 const program = require('commander');
-const exec = require('child_process').exec;
 const color = require('chalk');
+const shell = require('execa').shell;
+
 const execute = function (task) {
-	exec(`npm run ${task}`, (error, stdout, stderr) => {
-		console.log(color.magenta(stdout));
-		console.log(color.red.bold(stderr));
+	shell(`npm run ${task}`).then(result => {
+		console.log(color.magenta(result.stdout));
+		console.log(color.red.bold(result.stderr));
 		console.log(color.white.underline(Array(26).join('  ')));
 		console.log(Array(26).join('  '));
 	});

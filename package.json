@@ -1,7 +1,10 @@
 {
   "name": "npmrun",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "npm run alias",
+  "engines": {
+    "node": ">=4"
+  },
   "main": "npmrun.js",
   "repository": {
     "type": "git",
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "ava": "^0.11.0",
+    "execa": "^0.2.2",
     "xo": "^0.12.1"
   },
   "xo": {
