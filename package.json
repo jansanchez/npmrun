@@ -38,5 +38,12 @@
   "dependencies": {
     "chalk": "^1.1.1",
     "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "ava": "^0.11.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "esnext": true
   }
 }
