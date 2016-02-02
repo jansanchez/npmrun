@@ -35,7 +35,9 @@
     "nr": "./npmrun.js"
   },
   "scripts": {
-    "test": "xo && ava",
+    "test": "ava",
+    "pretest": "xo",
+    "posttest": "npm run clean",
     "clean": "rm -rf npm-debug.log.*"
   },
   "dependencies": {
